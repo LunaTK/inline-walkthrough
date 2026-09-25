@@ -1,0 +1,6 @@
+pre-push:
+  commands:
+    lint:
+      run: pnpm exec oxlint --fix .
+    format:
+      run: pnpm format

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inline chat playground</title>
+    <style>
+      html,
+      body {
+        overflow-x: clip;
+      }
+      body {
+        margin: 0;
+        padding: 64px 24px;
+        background: #f5f4f0;
+        color: #242626;
+        font: 16px/1.6 system-ui;
+      }
+      main {
+        max-width: 640px;
+        margin: auto;
+      }
+      h1 {
+        font-size: 40px;
+        letter-spacing: -1.5px;
+        line-height: 1.1;
+      }
+      code {
+        background: #e9e8e3;
+        padding: 3px 6px;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p>INLINE CHAT / PLAYGROUND</p>
+      <h1>Your page. A conversation away.</h1>
+      <p>
+        Open the Chat tab on the right. Ask a question, inspect this page, or ask the assistant to
+        change something.
+      </p>
+      <p>Try: <code>What is the title of this page?</code></p>
+      <p>Or: <code>Change the heading to “Hello from inline chat”.</code></p>
+    </main>
+    <script type="module" src="/src/inject.tsx"></script>
+  </body>
+</html>
