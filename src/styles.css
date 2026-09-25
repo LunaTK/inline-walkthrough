@@ -545,6 +545,7 @@ form {
 textarea {
   display: block;
   width: 100%;
+  font-size: 13px;
   resize: none;
   border: 0;
   outline: none;
@@ -555,7 +556,6 @@ textarea {
 }
 textarea::placeholder {
   color: var(--quiet);
-  font-size: 13px;
 }
 .compose-footer {
   display: flex;
